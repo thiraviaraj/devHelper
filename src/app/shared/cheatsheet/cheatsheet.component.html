@@ -1,0 +1,10 @@
+<div *ngIf="headerData[key]" class="padding10">
+    <b>{{headerData[key].title | uppercase}}</b>
+    <div><i>{{headerData[key].subtitle}}</i></div>
+</div>
+
+<div class="row" *ngFor="let item of config[key]">
+    <b>{{item.cmd}}</b> <br />
+    <i>{{item.desc}}
+    </i><br />
+</div>

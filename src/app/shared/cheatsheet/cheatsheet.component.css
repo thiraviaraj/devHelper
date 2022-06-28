@@ -1,0 +1,9 @@
+.row {
+    background: #cbc9c942;
+    padding: 10px;
+    border-bottom: 1px black solid;
+}
+
+.padding10 {
+    padding: 10px;
+}
